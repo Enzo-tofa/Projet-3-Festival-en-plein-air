@@ -18,25 +18,72 @@ div.localisation {
 }
 
 
+div.block {
+    margin : 0px auto;
+    text-align : center;
+}
+
+div#catalog {
+    border : solid thin white;
+    padding : 5px;
+    position : relative;
+    width : 70%;
+    max-width : 1000px;
+    color : white;
+}
+
+div#catalog div {
+    text-align : center;
+}
 
 
+div#films{
+    background-color: rgba(220,220,220,1);
+    box-shadow:  0px 0px 10px 4px rgba(255,255,255,0.2);
+}
+div#films{
+    padding : 10px;
+}
+
+div#films {
+    height : 370px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+div.film {
+    display : inline-block;
+    width : 200px;
+    height : 350px;
+    vertical-align : top;
+
+}
+
+div#films div.film {
+    margin : 0px 3px;
+}
+
+div.film:hover {
+    box-shadow:  0px 0px 8px 4px rgba(55,55,55,1);
+
+}
+div.film h3 {
+    height : 70px;
+    background-color : rgb(80,80,80);
+    padding : 5px;
+    margin : 0px;
+    font-size: 20px;
+    color : white;
+    white-space : initial;
+}
+
+div.film img {
+    width : 100%;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*
 /*Point de chute*/
 @media screen and (min-width: 576px) {
 
@@ -75,4 +122,10 @@ div.localisation {
     textarea {
         font-size: 1.25rem;
     }
+}
+
+
+footer{
+    margin-top: 50px;
+    background-color: midnightblue;
 }

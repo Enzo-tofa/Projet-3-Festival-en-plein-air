@@ -2,10 +2,10 @@
 <html lang="fr">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
-    <link rel="apple-touch-icon" type="image/png" sizes="16x16" href="logo.png">
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="../logo.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="16x16" href="../logo.png">
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
     <title>Le site de Festival de Plein Air</title>
 </head>
 
@@ -16,200 +16,148 @@
 
 <header>
     <nav class="navbar navbar-expand">
+        <div class="col-1"></div>
         <div class="localisation">
-            <img alt="Image de maps" title="maps" width="50px" src="maps.jpg">
-            <p>Paris</p>
+            <img alt="Image de maps" title="maps" width="50px" src="../maps.jpg">
         </div>
+        <p>Paris</p>
+        <div class="col-9"></div>
         <div class="utilisateur">
             <p>Mon compte</p>
         </div>
     </nav>
-</header>
-
-
-<header>
 
     <div class="container">
-        <img class="navbar-brand" src="home.jpg" href="index.html" width="50px" height="auto"/>
+
         <div class="row">
-            <div class="col-md-3 col-xs-12">
+            <div class="col-4"></div>
+            <div class="col-sm-3 col-xs-12">
                 <div class="logo">
-                    <img alt="Image du logo" src="logo.png" title="logo" width="300px" height="auto">
+                    <img alt="Image du logo" src="../logo.png" title="logo" width="300px" height="auto" style="position: center">
                 </div>
-                <h2>Festival de Plein Air</h2>
+                <a href="../index.html"><img class="navbar-brand" src="../home.jpg" width="50px" height="auto"/></a>
             </div>
         </div>
     </div>
 </header>
 
 <nav class="col navbar navbar-expand navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html"></a>
+    <a class="navbar-brand" href="../index.html"></a>
+    <div class="col-3"></div>
     <div id="navbarContent" class="collapse navbar-collapse">
+
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="">Programmes</a>
+                <a class="nav-link" href="programme.html">Programmes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Listes des films</a>
+                <a class="nav-link" href="listedesfilms.html">Listes des films</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">A propos du festival</a>
+                <a class="nav-link" href="apropos.html">A propos du festival</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contactez-nous</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Mentions légales</a>
+                <a class="nav-link" href="contact.html">Contactez-nous</a>
             </li>
         </ul>
     </div>
 </nav>
 
-<main>
-    <div class="container">
-        <h2>Présentation du Festival En Plein Air</h2>
-        <p>L'association "Les Films de Plein Air" vient d'obtenir l'autorisation de projeter au parc Monceau cette
-            année, chaque soir du 5 au 8 août, de 18 heures à minuit afin de faire découvrir des films d'auteur au grand
-            public.
+<h2>Voici la liste des films d'auteur proposé au festival</h2>
 
-        </p>
-    </div>
-
-    <div id="carousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="3.png" class="d-block w-10" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="3.png" class="d-block w-10" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="3.png" class="d-block w-10" alt="...">
-            </div>
+<div class="block" id="catalog">
+    <div id="films">
+        <div class="film" id="1-film">
+            <a href="films/film1.html">
+            <img src="../images/les_aventuriers_arche_perdue.jpg" alt="Les Aventuriers de l'Arche Perdue"/>
+            <h3>Les Aventuriers de l'Arche Perdue</h3>
+            </a>
+        </div>
+        <div class="film" id="2-film">
+            <a href="films/film2.html">
+            <img src="../images/la_guerre_des_etoiles.jpg" alt="La Guerre des Etoiles"/>
+            <h3>La Guerre des Etoiles</h3>
+            </a>
+        </div>
+        <div class="film" id="3-film">
+            <a href="films/film3.html">
+            <img src="../images/les_deux_tours.jpg" alt="Les Deux Tours"/>
+            <h3>Les Deux Tours</h3>
+            </a>
+        </div>
+        <div class="film" id="4-film">
+            <a href="films/film4.html">
+            <img src="../images/le_retour_du_roi.jpg" alt="Le Retour du Roi"/>
+            <h3>Le Retour du Roi</h3>
+            </a>
+        </div>
+        <div class="film" id="5-film">
+            <a href="films/film5.html">
+            <img src="../images/l_empire_contre_attaque.jpg" alt="L'Empire Contre Attaque"/>
+            <h3>L'Empire Contre Attaque</h3>
+            </a>
+        </div>
+        <div class="film" id="6-film">
+            <a href="films/film6.html">
+            <img src="../images/le_retour_du_jedi.jpg" alt="Le Retour du Jedi"/>
+            <h3>Le Retour du Jedi</h3>
+            </a>
+        </div>
+        <div class="film" id="7-film">
+            <a href="films/film7.html">
+            <img src="../images/le_temple_maudit.jpg" alt="Indiana Jones et le Temple Maudit"/>
+                <h3>Indiana Jones et le Temple Maudit</h3>
+            </a>
+        </div>
+        <div class="film" id="8-film">
+            <a href="films/film8.html">
+                <img src="../images/la_derniere_croisade.jpg" alt="Indiana Jones et la Dernière Croisade"/>
+                <h3>Indiana Jones et la Dernière Croisade</h3></a>
         </div>
     </div>
+</div>
 
-
-
-
-    <div class="container" style="border:1px; height:400px">
-        <div style="border: 1px solid #000;"class="row text-center">
-            <div class="col-3"></div>
-            <div class="col-6">Semaine actuelle</div>
-            <div class="col-3"></div>
+<footer>
+    <div class="row text-center text-decoration-underline">
+        <div class="col-1"></div>
+        <div class="col-5">
+            Plan du site : <br>
+            <a href="../index.html">Accueil</a><br>
+            <a href="../html/programme.html">Programme</a><br>
+            <a href="../html/listedesfilms.html">Liste des films</a><br>
+            <a href="../html/apropos.html">A propos</a><br>
+            <a href="../html/contact.html">Contactez-nous</a><br>
         </div>
-        <div style="height: 50px;border: 1px solid #000;" class="row text-center">
-            <div class="col"><br><br><br>Premier film<br><br><br>Deuxième film<br><br></div>
-            <div class="col">Lundi<br><br><br>Enter the Void (2010)<br><br><br>Enter the Void (2010)<br><br></div>
-            <div class="col">Mardi<br><br><br>Enter the Void (2010)<br><br><br>Enter the Void (2010)<br><br></div>
-            <div class="col">Mercredi<br><br><br>Enter the Void (2010)<br><br><br>Enter the Void (2010)<br><br></div>
-            <div class="col">Jeudi<br><br><br>Enter the Void (2010)<br><br><br>Enter the Void (2010)<br><br></div>
-            <div class="col">Vendredi<br><br><br>Enter the Void (2010)<br><br><br>Enter the Void (2010)<br><br></div>
-            <div class="col">Samedi<br><br><br>Enter the Void (2010)<br><br><br>Enter the Void (2010)<br><br></div>
-            <div class="col">Dimanche<br><br><br>Enter the Void (2010)<br><br><br>Enter the Void (2010)<br><br></div>
-        </div>
-        <!--<div style="height: 200px;border: 1px solid #000;" class="row text-center">
-            <div class="col-lg-3">Premier film (20h30)</div>
-            <div class="col-lg-1">Dead Man (1995)</div>
-            <div class="col-lg-1">Enter the Void (2010)</div>
-            <div class="col-lg-1">Holy Motors (2012)</div>
-            <div class="col-lg-1">Vol au-dessus d'un nid de coucou (1975)</div>
-            <div class="col-lg-1">Melancholia (2011)</div>
-            <div class="col-lg-1">Eraserhead (1977)</div>
-            <div class="col-lg-1">Le Guerrier silencieux - Valhalla Rising (2009)</div>
-            <div class="col-lg-2"></div>
-        </div>
-        <div style="height: 200px;border: 1px solid #000;" class="row text-center">
-            <div class="col-lg-3">Deuxième film (22h30)</div>
-            <div class="col-lg-1">Dead Man (1995)</div>
-            <div class="col-lg-1">Enter the Void (2010)</div>
-            <div class="col-lg-1">Holy Motors (2012)</div>
-            <div class="col-lg-1">Vol au-dessus d'un nid de coucou (1975)</div>
-            <div class="col-lg-1">Melancholia (2011)</div>
-            <div class="col-lg-1">Eraserhead (1977)</div>
-            <div class="col-lg-1">Le Guerrier silencieux - Valhalla Rising (2009)</div>
-            <div class="col-lg-2"></div>
-        </div>-->
 
-
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-1">Films</div>
-            <div class="col-sm-1">Lundi</div>
-            <div class="col-sm-1">Mardi</div>
-            <div class="col-sm-1">Mercredi</div>
-            <div class="col-sm-1">Jeudi</div>
-            <div class="col-sm-1">Vendredi</div>
-            <div class="col-sm-1">Samedi</div>
-            <div class="col-sm-1">Dimanche</div>
-        </div>
-        <div class="row">
-            <div class="col-sm-1">Films 1</div>
-            <div class="col-sm-1">Films x</div>
-            <div class="col-sm-1">Films x</div>
-            <div class="col-sm-1">Films x</div>
-            <div class="col-sm-1">Films x</div>
-            <div class="col-sm-1">Films x</div>
-            <div class="col-sm-1">Films x</div>
-            <div class="col-sm-1">Films x</div>
-        </div>
-        <div class="row">
-            <div class="col-sm-1">Films 2</div>
-            <div class="col-sm-1">Films x</div>
-            <div class="col-sm-1">Films x</div>
-            <div class="col-sm-1">Films x</div>
-            <div class="col-sm-1">Films x</div>
-            <div class="col-sm-1">Films x</div>
-            <div class="col-sm-1">Films x</div>
-            <div class="col-sm-1">Films x</div>
-        </div>
-    </div>
-
-    <div class="container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10495.748111763936!2d2.3013802092100635!3d48.8784769957707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1606735184054!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
-
-    <footer>
-            <div class="row text-center text-decoration-underline">
-                <div class="col-1"></div>
-                <div class="col-5">
-                    Plan du site : <br>
-                    <a href="index.html">Accueil</a><br>
+        <div class="col-5">
+            <form>
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" class="form-control" id="nom">
                 </div>
+                <div class="form-group">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" class="form-control" id="prenom">
+                </div>
+                <div class="form-group">
+                    <label for="objet">Objet</label>
+                    <input type="text" class="form-control" id="objet">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <input type="text" class="form-control" id="message" rows="5">
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form></div>
+        <div class="col-1"></div>
+    </div>
+</footer>
 
-                <div class="col-5">
-                    <form>
-                        <div class="form-group">
-                            <label for="nom">Nom</label>
-                            <input type="text" class="form-control" id="nom">
-                        </div>
-                        <div class="form-group">
-                            <label for="prenom">Prénom</label>
-                            <input type="text" class="form-control" id="prenom">
-                        </div>
-                        <div class="form-group">
-                            <label for="objet">Objet</label>
-                            <input type="text" class="form-control" id="objet">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <input type="text" class="form-control" id="message" rows="5">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Envoyer</button>
-                    </form></div>
-                <div class="col-1"></div>
-            </div>
-        </footer>
-
-</main>
-
-
-<script src="js/jquery-3.5.1.js"></script>
-<script src="js/bootstrap.js"></script>
+<script src="../js/jquery-3.5.1.js"></script>
+<script src="../js/bootstrap.js"></script>
 <script>
     $('.carousel').carousel();
 </script>
+
 </body>
 </html>

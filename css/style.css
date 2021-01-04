@@ -1,5 +1,4 @@
 header{
-    color:#33002B;
     height:auto;
     padding: 10px 0;
     border-bottom: 1px solid #000000;
@@ -126,6 +125,86 @@ div.film img {
 
 
 footer{
+    margin-top: 200px;
+    color: white;
+    background-color: #07052e;
+}
+
+body{
+    color: white;
+    background-color: #07052e;
+}
+
+header{
+    color: white;
+}
+header div.localisation{
+    margin-top: -5px;
+}
+
+div.connexion{
     margin-top: 50px;
-    background-color: midnightblue;
+    margin-bottom: 100px;
+}
+
+nav a.nav-link{
+    text-decoration: none;
+    color: white;
+}
+nav a:active{
+    color: #ff7e7b;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+div#carousel.carousel.slide{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+div.voirplus{
+    margin-top: -60px;
+    margin-bottom: 60px;
+}
+div.voirplus a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+iframe{
+    position: center;
+}
+
+footer p{
+    font-size: 0.6em;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.6em;
+}
+main p{
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+
+form{
+    margin-left: 300px;
+    margin-right: -300px;
+    position: center;
+    alignment: center;
+}
+
+div#description.container{
+    display: flex;
+}
+
+main h3{
+    text-align: center;
 }

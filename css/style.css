@@ -4,25 +4,42 @@ header{
     border-bottom: 1px solid #000000;
     text-align: center;
 }
-
-div.logo {
-    height: auto;
-    max-width: 915px;
-    position: center;
+header nav{
+    background-color: #07052e;
+    margin-bottom: 200px;
 }
 
-div.localisation {
+
+.carousel img{
+    height:auto;
+    width:auto;
+    margin:auto;
+}
+.logo {
+    margin-top: 50px;
+    height: auto;
+    max-width: 915px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.localisation {
     text-align: center;
     display: inline;
 }
 
+.logo img{
+    width:300px;
+    height:auto;
+    position: center;
+}
 
-div.block {
-    margin : 0px auto;
+.block {
+    margin : 0 auto;
     text-align : center;
 }
 
-div#catalog {
+#catalog {
     border : solid thin white;
     padding : 5px;
     position : relative;
@@ -31,27 +48,27 @@ div#catalog {
     color : white;
 }
 
-div#catalog div {
+#catalog div {
     text-align : center;
 }
 
 
-div#films{
+#films{
     background-color: rgba(220,220,220,1);
-    box-shadow:  0px 0px 10px 4px rgba(255,255,255,0.2);
+    box-shadow:  0 0 10px 4px rgba(255,255,255,0.2);
 }
-div#films{
+#films{
     padding : 10px;
 }
 
-div#films {
+#films {
     height : 370px;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
 }
 
-div.film {
+.film {
     display : inline-block;
     width : 200px;
     height : 350px;
@@ -59,30 +76,28 @@ div.film {
 
 }
 
-div#films div.film {
-    margin : 0px 3px;
+#films div.film {
+    margin : 0 3px;
 }
 
-div.film:hover {
-    box-shadow:  0px 0px 8px 4px rgba(55,55,55,1);
+.film:hover {
+    box-shadow:  0 0 8px 4px rgba(55,55,55,1);
 
 }
-div.film h3 {
+.film h3 {
     height : 70px;
     background-color : rgb(80,80,80);
     padding : 5px;
-    margin : 0px;
+    margin : 0;
     font-size: 20px;
     color : white;
     white-space : initial;
 }
 
-div.film img {
+.film img {
     width : 100%;
 }
 
-
-*
 /*Point de chute*/
 @media screen and (min-width: 576px) {
 
@@ -142,7 +157,7 @@ header div.localisation{
     margin-top: -5px;
 }
 
-div.connexion{
+.connexion{
     margin-top: 50px;
     margin-bottom: 100px;
 }
@@ -156,20 +171,22 @@ nav a:active{
 }
 
 h2{
-    text-decoration: underline;
+    font-size: 3em;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
+    color: #ff9d91;
 }
-div#carousel.carousel.slide{
+
+#carousel.carousel.slide{
     margin-top: 25px;
     margin-bottom: 25px;
 }
-div.voirplus{
+.voirplus{
     margin-top: -60px;
     margin-bottom: 60px;
 }
-div.voirplus a{
+.voirplus a{
     color: white;
     text-decoration: none;
     text-align: center;
@@ -195,13 +212,10 @@ h6{
 }
 
 form{
-    margin-left: 300px;
-    margin-right: -300px;
-    position: center;
-    alignment: center;
+    margin: auto;
 }
 
-div#description.container{
+#description.container{
     display: flex;
 }
 

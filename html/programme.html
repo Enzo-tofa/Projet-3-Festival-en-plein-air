@@ -46,7 +46,7 @@
 
     <div class="container">
         <div class="logo">
-            <img alt="Image du logo" src="../logo.png" title="logo" >
+            <img alt="Image du logo" src="../logo.png" title="logo">
         </div>
     </div>
 
@@ -54,77 +54,81 @@
 
 
 <main>
-
     <h2>Programme de la semaine actuelle</h2>
 
 
     <div class="container" style="border:1px; height:400px">
         <div style="border: 1px solid #000;" class="row text-center">
             <div class="col-3 bg-dark"></div>
-            <div class="col-6 bg-dark">Semaine actuelle</div>
+            <div class="col-6 bg-dark" style="padding-top: 10px;padding-bottom: 10px">Semaine actuelle</div>
             <div class="col-3 bg-dark"></div>
         </div>
         <div style="height: 50px;border: 1px solid #000;" class="row text-center">
-            <div class="col bg-dark"><br><br><br>Premier film (20h30)<br><br><br>Deuxième film (22h30)<br><br>
+            <div class="col bg-dark"><br><br>Premier film (20h30)<br><br><br><br>Deuxième film (22h30)<br><br>
             </div>
             <div class="col bg-dark">Mercredi<br><br>Les deux tours<br><br><br><br>L'empire contre-attaque<br><br></div>
             <div class="col bg-dark">Jeudi<br><br>Le retour du roi<br><br><br><br>La guerre des étoiles<br><br></div>
-            <div class="col bg-dark">Vendredi<br><br>L'empire contre-attaque<br><br><br>Indiana Jones et la dernière croisade<br><br></div>
-            <div class="col bg-dark">Samedi<br><br>Les aventuriers de l'arche perdue<br><br>Le retour du roi<br><br></div>
+            <div class="col bg-dark">Vendredi<br><br>L'empire contre-attaque<br><br><br>Indiana Jones et la dernière
+                croisade<br><br></div>
+            <div class="col bg-dark">Samedi<br><br>Les aventuriers de l'arche perdue<br><br>Le retour du roi<br><br>
+            </div>
         </div>
+    </div>
     </div>
 
 
     <div class="container">
-        <h2>Réservations</h2>
-        <p>Vous pouvez réserver vos places pour être certains de voir vos films préférés :)</p>
+        <div class="border">
+            <h2>Réservations</h2>
+            <p>Vous pouvez réserver vos places pour être certains de voir vos films préférés :)</p>
 
-    <form>
-        <div class="form-group col-sm-12 col-md-12 col-lg-12">
-            <label for="nom">Nom</label>
-            <input type="text" class="form-control" id="nom">
-        </div>
-        <div class="form-group col-sm-12 col-md-12 col-lg-12">
-            <label for="prenom">Prénom</label>
-            <input type="text" class="form-control" id="prenom">
-        </div>
-        <div class="form-group col-sm-12 col-md-12 col-lg-12">
-            <label for="exampleFormControlInput1">Adresse mail</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="form-group col-sm-12 col-md-12 col-lg-12">
-            <label for="film">Film</label>
-            <select class="form-control" id="film">
-                <option value="lesaventuriersdelarcheperdue">Les Aventuriers de l'Arche Perdue</option>
-                <option value="lesdeuxtours" selected>Les deux Tours</option>
-                <option value="robinsoncrusoe">Robinson Crusoe</option>
-            </select>
-        </div>
-        <div class="form-group col-sm-12 col-md-12 col-lg-12">
-            <label for="heure">Heure</label>
-            <select class="form-control" id="heure">
-                <option>20h30</option>
-                <option>22h30</option>
-            </select>
-        </div>
-        <div class="form-group col-sm-12 col-md-12 col-lg-12">
-            <label for="jour">Jour</label>
-            <select class="form-control" id="jour">
-                <option>Mercredi</option>
-                <option>Jeudi</option>
-                <option>Vendredi</option>
-                <option>Samedi</option>
-            </select>
-        </div>
-        <div class="form-group col-sm-12 col-md-12 col-lg-12">
-            <label for="message">Indications spécifiques</label>
-            <textarea class="form-control" id="message" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Envoyer</button>
-    </form>
+            <form>
+                <div class="form-group col-sm-12 col-md-12 col-lg-12">
+                    <label for="nom">Nom</label>
+                    <input type="text" class="form-control" id="nom">
+                </div>
+                <div class="form-group col-sm-12 col-md-12 col-lg-12">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" class="form-control" id="prenom">
+                </div>
+                <div class="form-group col-sm-12 col-md-12 col-lg-12">
+                    <label for="exampleFormControlInput1">Adresse mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                           placeholder="name@example.com">
+                </div>
+                <div class="form-group col-sm-12 col-md-12 col-lg-12">
+                    <label for="film">Film</label>
+                    <select class="form-control" id="film">
+                        <option value="lesaventuriersdelarcheperdue">Les Aventuriers de l'Arche Perdue</option>
+                        <option value="lesdeuxtours" selected>Les deux Tours</option>
+                        <option value="robinsoncrusoe">Robinson Crusoe</option>
+                    </select>
+                </div>
+                <div class="form-group col-sm-12 col-md-12 col-lg-12">
+                    <label for="heure">Heure</label>
+                    <select class="form-control" id="heure">
+                        <option>20h30</option>
+                        <option>22h30</option>
+                    </select>
+                </div>
+                <div class="form-group col-sm-12 col-md-12 col-lg-12">
+                    <label for="jour">Jour</label>
+                    <select class="form-control" id="jour">
+                        <option>Mercredi</option>
+                        <option>Jeudi</option>
+                        <option>Vendredi</option>
+                        <option>Samedi</option>
+                    </select>
+                </div>
+                <div class="form-group col-sm-12 col-md-12 col-lg-12">
+                    <label for="message">Indications spécifiques</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
 
+        </div>
     </div>
-
 </main>
 
 

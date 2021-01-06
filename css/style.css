@@ -144,6 +144,10 @@ footer{
     color: white;
     background-color: #07052e;
 }
+footer .col-4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 body{
     color: white;

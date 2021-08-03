@@ -1,3 +1,6 @@
+Ceci est le projet 3 de la formation Developpeur d'application front-end d'Openclassrooms.
+
+
 Jennifer Edwards est l'organisatrice du festival des Films de Plein Air. 
 Elle ambitionne de sélectionner et de projeter des films d'auteur en plein air du 5 au 8 août au parc Monceau à Paris.
 
